@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="row">
+            <div id="viewHScores">View Highscores</div>
+            <div id="time">Time: <span id="timer">0</span></div>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="jumbotron">
+            <div class="container-welcome" id="welcome">
+                <h1 id="title">Coding Quiz Challenge</h1>
+                <p id="instructions">Try to answer the following code-related questions with the time limit. 
+                    Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+                <button class="btn" id="startQuiz">Start Quiz</button>
+            </div>
+            <div class="container-quiz" id="quiz">
+                <h1 id="question"></h1>
+                <div class="container-answers" id="answers">
+                    <div class="row">
+                        <button class="btn btn-answers answers" id="0"></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn answers" id="1"></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn answers" id="2"></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn answers" id="3"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-inputScore" id="inputScore">
+                <h1 id="all-done">All done!</h1>
+                <p id="final-score">Your final score: <span id="score"></span></p>
+                <p id="enter-initials">Enter initials: <input type="text " id="initials"></p>
+                <button class="btn" id="submitInitials">Submit</button>
+            </div>
+            <div class="container-highScores" id="highScores">
+                <h1 id="highScores-title">Highscores</h1>
+                <div class="container-scores" id="scores">
+                </div>
+                <button class="btn" id="goBack">Go Back</button>
+                <button class="btn" id="clearScores">Clear Scores</button>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
