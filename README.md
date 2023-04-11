@@ -23,5 +23,4 @@ THEN I can save my initials and score
 ![image](https://user-images.githubusercontent.com/123011718/231048762-40dd507d-fb22-4fa5-9f1d-5ffba1bc904b.png)
 
 ### Deployed App
-
-[a link](https://eduardopinedah.github.io/Code-Quiz-Game/)
+<a href="https://eduardopinedah.github.io/Code-Quiz-Game"><img src="https://img.shields.io/badge/- See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
